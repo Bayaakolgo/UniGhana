@@ -32,12 +32,9 @@
                 <h3 class="text-muted">UniGhana</h3>
             </div>
             <div ng-view>
+                {% include 'mysite/messages.html' %}
                 {% block content %}
-                {% if messages %}
-                    {% for message in messages %}
-                        <h1 {% if message.tags %} ng-class="{active:getActive('/homepage')} {{ message.tags }}" {% endif %}>{{ message }}</h1>
-                    {% endfor %}
-                {% endif %}
+                
                 {% endblock content %}
             </div>
             <div class="footer">

@@ -1,0 +1,13 @@
+{% extends 'mysite/index.html' %}
+{% block content %}
+    <div class="row">
+        <div class="col-lg-12">
+            <h1>UniGhana Page</h2>
+            <div class="jumbotron">
+                {% if user.is_authenticated %}
+                    <h3>Welcome</h3>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+{% endblock content %}

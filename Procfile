@@ -1,1 +1,1 @@
-web: gunicorn UniGhana.wsgi --log-file-
+web: gunicorn UniGhana.wsgi

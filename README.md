@@ -10,4 +10,5 @@ INSTRUCTIONS TO RUN THIS PROJECT ON YOUR COMPUTER
 *After the installation, run the python server using
     ** py manage.py runserver.
 
-
+THE APP CAN BE TRIED USING THIS domain.
+https://pure-bayou-84155.herokuapp.com/
